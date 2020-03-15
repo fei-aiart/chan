@@ -1,6 +1,6 @@
-# chan
+# CHAN
 
-## Coarse-to-Fine Image-to-Image Translation via Attentively Collaborative
+## Complementary, Heterogeneous and Adversarial Networks for Image-to-Image Translation
 
 we provide PyTorch implementations for our paper "Complementary, Heterogeneous and Adversarial
 Networks for Image-to-Image Translation"
