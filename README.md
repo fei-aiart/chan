@@ -22,7 +22,7 @@ Networks for Image-to-Image Translation"
 #### installation
 - clone this repo:
 ```shell script
-git clone https://github.com/jehovahxu/chan.git
+git clone https://github.com/fei-hdu/chan.git
 cd chan
 ```
 - install PyTorch 0.4+
@@ -48,7 +48,7 @@ A face photo-to-sketch model pre-trained on the CUSF: [Google Drive](https://dri
 The pre-trained model need to be save at `./checkpoint`
 
 Then you can test the model
- 
+
 ### Result
 Our final result can be downloaded in [here](https://drive.google.com/open?id=1AzmHkcGa21h6Mngdc7sEIH1hOR6GrBTS)
 
