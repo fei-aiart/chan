@@ -48,16 +48,16 @@ cd chan
     python test.py --dataroot {dataset path} --datalist {datalist path} --pre_netG {final model path} --gpuid {your gpu ids}
     ```
 #### Apply our pre-trained model
-A *face photo-to-sketch* model pre-trained on the CUSF: [Google Drive](https://drive.google.com/open?id=173H7FdwG7UOMM1G-4sm7zKUBu0yFypul)
+A *face photo-to-sketch* model pre-trained on the CUSF dataset: [Google Drive](https://drive.google.com/open?id=173H7FdwG7UOMM1G-4sm7zKUBu0yFypul)
 
 The pre-trained model need to be save at `./checkpoint`
 
 Then you can test this imodel.
 
 ### Results
-Our final result can be downloaded in [here](https://drive.google.com/open?id=1AzmHkcGa21h6Mngdc7sEIH1hOR6GrBTS)
+Our final results can be downloaded [here](https://drive.google.com/open?id=1AzmHkcGa21h6Mngdc7sEIH1hOR6GrBTS)
 
-Our Quantitative performance in a variety of image-to-image translation tasks. The total score gained by every model  on each dataset are reported in the column of score
+Our Quantitative performance in a variety of image-to-image translation tasks are shown below. We assign a *score* of $+1$, $0$, or $-1$ to the best, mediate, and worst model according to each performance index. For each method, the total score on each dataset and that across all these datasets, are reported. 
 ![](./imgs/ex_result.png)
 
 ### Training/Test Tips
