@@ -2,7 +2,7 @@
 
 > `PyTorch` implementations of **CHAN** (Complementary, Heterogeneous and Adversarial Networks)
 
-![](imgs/chan_logo2.png)
+<img src="imgs/chan_logo2.png" width="500px" align="middle" />
 
 ### Our Proposed Framework
 #### Generator
