@@ -27,9 +27,8 @@ cd chan
 - install PyTorch 0.4+
 #### Quick Start
 - Download a dataset
-    - [CUFS](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) split train and test with this [files](https://drive.google.com/open?id=1TYQ5O9q4ZMiuBimPMqqj7O_SyHoijwmn)
-    - **CityScapes,Facades.Google Map,Edge2Shoes,Edge2Handbags**: you can download by [Pix2Pix bash](https://github.com/phillipi/pix2pix/blob/master/datasets/download_dataset.sh) 
-    - Paris Street View : you can contact [Deepak Pathak](https://github.com/pathak22) to get the dataset 
+    - [CUFS](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) splits of training and testing: [files](https://drive.google.com/open?id=1TYQ5O9q4ZMiuBimPMqqj7O_SyHoijwmn)
+    - CityScapes, Facades, Google Map, Edge2Shoes, Edge2Handbags: [Pix2Pix bash](https://github.com/phillipi/pix2pix/blob/master/datasets/download_dataset.sh) 
 
 <!--
 
@@ -57,7 +56,7 @@ Then you can test this imodel.
 ### Results
 Our final results can be downloaded [here](https://drive.google.com/open?id=1AzmHkcGa21h6Mngdc7sEIH1hOR6GrBTS)
 
-Our Quantitative performance in a variety of image-to-image translation tasks are shown below. We assign a *score* of $+1$, $0$, or $-1$ to the best, mediate, and worst model according to each performance index. For each method, the total score on each dataset and that across all these datasets, are reported. 
+Our Quantitative performance in a variety of image-to-image translation tasks are shown below. We assign a *score* of +1​, 0​, or ​-1​ to the best, mediate, and worst model according to each performance index. For each method, the total score on each dataset and that across all these datasets, are reported. 
 ![](./imgs/ex_result.png)
 
 ### Training/Test Tips
