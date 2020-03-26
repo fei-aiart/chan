@@ -1,8 +1,7 @@
 # CHAN for Image-to-Image Translation
 
-> `PyTorch` implementations of **CHAN** (Complementary, Heterogeneous and Adversarial Networks)
-
-<img src="imgs/chan_logo2.png" width="500px" align="middle" />
+> `PyTorch` implementations of **CHAN** for Image-to-Image Translation
+![](imgs/chan_logo0.png)
 
 ### Our Proposed Framework
 #### Generator
@@ -60,7 +59,7 @@ Our Quantitative performance in a variety of image-to-image translation tasks ar
 ![](./imgs/ex_result.png)
 
 ### Training/Test Tips
-Best practice for training and testing your models.<p>
+Best practice for training and testing your models.
 Feel free to ask any questions about coding. **Xingxin Xu**, [jehovahxu@gmail.com](jehovahxu@gmail.com)<p>
 
 ### Citation
