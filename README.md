@@ -70,7 +70,7 @@ If you find this useful for your research, please cite our paper as:
 	title = {Complementary, Heterogeneous and Adversarial Networks for Image-to-Image Translation},
 	author = {Fei Gao and Xingxin Xu and Jun Yu and Dacheng Tao},
 	year = {2020},
-	url = {https://github.com/fei-hdu},
+	url = {https://github.com/fei-hdu/chan},
 }
 ```
 
