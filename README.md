@@ -77,7 +77,7 @@ If you find this useful for your research, please cite our paper as:
 > Fei Gao, Xingxin Xu, Jun Yu, Meimei Shang, Xiang Li, and Dacheng Tao, Complementary, Heterogeneous and Adversarial Networks for Image-to-Image Translation, *IEEE Transactions on Image Processing*, 2021. (Accepted)
 
 ```latex
-@article{gao2020chan,
+@article{gao2021chan,
 	title = {Complementary, Heterogeneous and Adversarial Networks for Image-to-Image Translation},
 	author = {Fei Gao and Xingxin Xu and Jun Yu and Meimei Shang and Xiang Li and Dacheng Tao},
 	journal = {IEEE Transactions on Image Processing},
