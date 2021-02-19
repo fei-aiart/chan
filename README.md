@@ -1,17 +1,25 @@
 # CHAN for Image-to-Image Translation
 
-> `PyTorch` implementations of **CHAN** for Image-to-Image Translation
+> `PyTorch` implementations of **CHAN** for Image-to-Image Translation.
+>
+> Fei Gao, Xingxin Xu, Jun Yu, Meimei Shang, Xiang Li, and Dacheng Tao, Complementary, Heterogeneous and Adversarial Networks for Image-to-Image Translation, *IEEE Transactions on Image Processing*, 2021. (Accepted)
 
 ![](imgs/chan_logo0.png)
 
 ### Our Proposed Framework
 #### Generator
-![](imgs/generator.png)
+![](imgs/chan.jpg)
 #### Discriminator (Multi-layer Integration Discriminator, MID)
 ![](imgs/discriminator.png)
 ### Generated Examples 
-![](imgs/result1.png)
+![](imgs/fig_comp.jpg)
+
+![](imgs/fig_celeb.jpg)
+
+![](imgs/fig_lightpose.jpg)
+
 ### Prerequisites
+
 - Linux or similar environment
 - Python 2.7
 - NVIDIA GPU + CUDA CuDNN
@@ -56,8 +64,8 @@ Then you can test this imodel.
 ### Results
 Our final results can be downloaded [here](https://drive.google.com/open?id=1AzmHkcGa21h6Mngdc7sEIH1hOR6GrBTS)
 
-Our Quantitative performance in a variety of image-to-image translation tasks are shown below. We assign a *score* of +1​, 0​, or ​-1​ to the best, mediate, and worst model according to each performance index. For each method, the total score on each dataset and that across all these datasets, are reported. 
-![](./imgs/ex_result.png)
+​Our Quantitative performance in a variety of image-to-image translation tasks are shown below. We assign a *score* of +1, 0, or -1 to the best, mediate, and worst model according to each performance index. For each method, the total score on each dataset and that across all these datasets, are reported. 
+![](./imgs/result_comp.jpg)
 
 ### Training/Test Tips
 Best practice for training and testing your models.
@@ -65,22 +73,21 @@ Feel free to ask any questions about coding. **Xingxin Xu**, [jehovahxu@gmail.co
 
 ### Citation
 If you find this useful for your research, please cite our paper as:
-```
+
+> Fei Gao, Xingxin Xu, Jun Yu, Meimei Shang, Xiang Li, and Dacheng Tao, Complementary, Heterogeneous and Adversarial Networks for Image-to-Image Translation, *IEEE Transactions on Image Processing*, 2021. (Accepted)
+
+```latex
 @article{gao2020chan,
 	title = {Complementary, Heterogeneous and Adversarial Networks for Image-to-Image Translation},
-	author = {Fei Gao and Xingxin Xu and Jun Yu and Dacheng Tao},
-	year = {2020},
+	author = {Fei Gao and Xingxin Xu and Jun Yu and Meimei Shang and Xiang Li and Dacheng Tao},
+	journal = {IEEE Transactions on Image Processing},
+	year = {2021},
 	url = {https://github.com/fei-hdu/chan},
 }
 ```
 
 ### Acknowledgments
 Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
-
-<!--
-### Citation
-If you use this code for your research, plase cite our papers.
--->
 
 
 
